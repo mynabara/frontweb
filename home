@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+		<title> Marvels Catalog </title>
+		
+		<meta charset="utf-8">
+
+		<link rel="stylesheet" type="text/css" href="style/external_style.css">
+
+		<style type="text/css">
+      
+			body {
+				background-color: #000000;
+			}
+
+			img {
+				width: 99%;
+			}
+	
+			h1 {
+				color: paleturquoise;
+				text-shadow: 7px 7px 20px rgb(90, 162, 255), -7px -7px 20px rgb(255, 122, 122);
+				text-decoration-line: overline underline;
+				text-decoration-style: dashed;
+				text-decoration-color: rgb(255, 0, 85);  
+			}
+
+			h2 {
+				padding-top: 20px;
+				color:darkred;
+			}
+
+			h4 {
+				padding-top: 30px;
+				font-weight: bold;
+			}
+
+			p {
+				padding: 15px;
+			}
+
+		  </style>
+
+	</head>
+
+	<body>
+
+		<header>
+
+            <nav>
+
+                <ul>
+                    <li><a class="active" href="home.html">Mansão X - Home</a></li>
+                    <li><a href="news.html">Clarim Diário - Notícias</a></li>
+                    <li><a href="cerebro.html">Cérebro - Central de Ajuda</a></li>
+                </ul>
+
+            </nav> 
+
+			<img src="images/marvels title.jpg" alt="marvels image">
+
+			<h1>Marvels Catalog</h1>
+
+			<h2>Para colecionadores da série MARVELS</h2>
+			
+		</header>
+
+			<article>
+
+				<h4>Confira os itens da coleção Marvels:</h4>
+
+				<p>Marvels #1 - Janeiro/1994</p>
+				<p>Marvels #2 - Fevereiro/1994</p>
+				<p>Marvels #3 - Março/1994</p>
+				<p>Marvels #4 - Abril/1994</p>
+				<p>Marvels #0 - Agosto/1994</p>
+
+			</article>
+
+		<footer>
+
+			<h5> Telefone: (00)0000-0000 | Marvels Catalog </h5>
+
+		</footer>
+
+	</body>
+
+</html>
