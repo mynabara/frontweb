@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+<html>   
+
+  <head>
+
+      <title>Cérebro</title>
+
+      <meta charset="utf-8">
+
+      <link rel="stylesheet" type="text/css" href="style/external_style.css">
+
+      <style type="text/css">
+      
+        body {
+          background-color: lightgoldenrodyellow;
+        }
+
+        h1 {
+          color:palevioletred;
+          background-color:#FFFFFF;
+        }
+
+        .container {
+          width: auto;
+          height: auto;
+          padding: 20px;
+          display: flex;
+          flex-direction: row;
+        }
+
+        /* Início Formulário*/
+
+        fieldset {
+          width: 50%;
+          margin: 30px;
+          padding: 20px;
+          display: flex;
+        }
+
+        legend {
+          font-size: 150%;
+          font-weight: bold;
+          padding: 0 10px 0 10px;
+        }
+
+        h4 {
+          font-size: 90%;
+          font-weight: lighter;
+          font-style: italic;
+          margin: 0;
+          padding-bottom: 20px;
+        }
+
+        label {
+          margin: 15px 5px;
+          padding: 5px;
+          font-family: Verdana;
+        }
+
+        input {
+          margin: 15px 10px 15px;
+          padding: 5px;
+        }
+
+        div {
+          margin: 15px 0 15px;
+          padding: 5px;
+          display: inline;
+        }
+
+        div.textarea {
+          display: flex;
+          flex-direction: column;
+        }
+
+        textarea {
+          width: 100%;
+          height: 100px;
+        }
+
+        /* Fim Formulário*/
+
+        img {
+          padding: 20px;
+        }
+
+      </style>
+
+  </head>
+
+  <body>
+
+    <header>
+
+      <nav>
+
+        <ul>
+            <li><a href="home.html">Mansão X - Home</a></li>
+            <li><a href="news.html">Clarim Diário - Notícias</a></li>
+            <li><a class="active" href="cerebro.html">Cérebro - Central de Ajuda</a></li>
+        </ul>
+
+      </nav> 
+
+      <h1> Cérebro - Central de Ajuda </h1>
+        
+    </header>
+
+    <div class="container">
+
+      <form name="formulário" method="post" action="/receber_dados.php"></form>
+
+        <fieldset>
+
+          <legend>Como podemos te salvar?</legend>
+
+          <h4>*Campos obrigatórios</h4>
+
+          <div>
+            <label>Nome*</label>
+              <input type="text" maxlenght="50" size="60" name="nome" placeholder="Sua Identidade Secreta" required>
+          </div>
+
+          <div>
+            <label>Data de nascimento*</label>
+              <input type="date" size="60" name="birthday" required>
+          </div>
+
+          <div>
+            <label>Telefone/Celular</label>
+              <input type="tel" name="fone" placeholder="(00)90000-0000">
+          </div>
+
+          <div>
+            <label>E-mail*</label>
+                <input type="email" maxlenght="50" name="email" placeholder="marvels@marvels.com" required>
+          </div>
+
+          <div>
+            <label>Quantas HQs Marvels possui?</label>
+              <input type="radio" name="todos" value="all">Tenho todas
+              <input type="radio" name="falta" value="almost">Tenho pelo menos uma
+              <input type="radio" name="nenhum" value="none">Nenhuma
+          </div>
+            
+          <div>
+            <label>Buscando qual edição?</label>     
+              <input type="checkbox" name="marvels1" value="m1">#1 
+              <input type="checkbox" name="marvels2" value="m2">#2 
+              <input type="checkbox" name="marvels3" value="m3">#3 
+              <input type="checkbox" name="marvels4" value="m4">#4 
+              <input type="checkbox" name="marvels0" value="m0">#0 
+          </div>
+
+          <div>
+            <label>Quantas unidades?</label>
+              <input type="number" name="quantidade" min="1" max="5"> 
+          </div>     
+
+          <div class="textarea">
+            <label>Como podemos te ajudar?*</label>
+              <textarea>Escreva seu SOS</textarea> 
+            </div>
+
+            <input type="submit" value="Enviar chamado para um herói!">
+
+        </fieldset>
+
+      </form>
+
+      <img src="images/angel.jpg" alt="angel image">
+
+    </div>
+
+    <footer>
+
+      <h5> Telefone: (00)0000-0000 | Marvels Catalog </h5>
+
+    </footer>
+    
+  </body> 
+
+</html>
