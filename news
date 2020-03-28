@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>      
+          
+    <head>
+
+      <title> Clarim Diário - Notícias </title>
+      
+      <meta charset="utf-8">
+
+      <link rel="stylesheet" type="text/css" href="style/external_style.css">
+
+      <style type="text/css">
+      
+        body {
+            background-color: #FFFFFF;
+        }
+
+        h1 {
+            color:ivory;
+            background-color:darkred;
+        }
+
+        h3 {
+            color: darkred;
+            padding-bottom: 20px;
+        }
+
+        img {
+            display: block;
+            margin: auto;
+            padding: 60px 0 40px;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 0;
+        }
+
+      </style>
+
+    </head>
+
+    <body>
+
+        <header>
+
+            <nav>
+
+                <ul>
+                    <li><a href="home.html">Mansão X - Home</a></li>
+                    <li><a class="active" href="news.html">Clarim Diário - Notícias</a></li>
+                    <li><a href="cerebro.html">Cérebro - Central de Ajuda</a></li>
+                </ul>
+
+            </nav>  
+            
+            <h1>Clarim Diário - Notícias</h1>
+
+        </header>
+
+        <img src="images/epilogue.jpg" alt="epilogue image"></td>
+
+        <h3>Em construção - Aguarde novidades!</h3>
+        
+        <footer>
+
+            <h5> Telefone: (00)0000-0000 | Marvels Catalog </h5>
+
+        </footer>
+    
+    </body> 
+
+</html>
